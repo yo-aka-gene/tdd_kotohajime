@@ -6,7 +6,6 @@ import pytest
 
 from click.testing import CliRunner
 
-from tdd import tdd
 from tdd import cli
 
 
