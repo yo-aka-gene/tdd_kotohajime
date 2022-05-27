@@ -4,15 +4,12 @@ version = "0.1.0"
 description = "tdd exercise"
 authors = ["yo-aka-gene <yujiokano@keio.jp>"]
 include = [
-  "AUTHORS.rst",
-  "CONTRIBUTING.rst",
-  "HISTORY.rst",
-  "tests/",
-  "docs/",
+  "./tdd/"
 ]
 exclude = [
   "**/__pycache__",
-  "**/*.py[co]"
+  "**/*.py[co]",
+  "docs/",
 ]
 
 [tool.poetry.dependencies]
