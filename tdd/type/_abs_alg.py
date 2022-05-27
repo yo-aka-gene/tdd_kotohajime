@@ -5,6 +5,7 @@ ABC Class of Algebra
 from abc import ABC, abstractmethod
 from typing import Any, Dict
 
+
 class _Algebra(ABC):
   """
   ABC Class of Algebra
@@ -36,7 +37,7 @@ class _Algebra(ABC):
         1st argument
       2. y: Any
         2nd argument
-    
+
     Return
     ------
     value: Any
