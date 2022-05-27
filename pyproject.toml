@@ -3,6 +3,17 @@ name = "tdd"
 version = "0.1.0"
 description = "tdd exercise"
 authors = ["yo-aka-gene <yujiokano@keio.jp>"]
+include = [
+  "AUTHORS.rst",
+  "CONTRIBUTING.rst",
+  "HISTORY.rst",
+  "tests/",
+  "docs/",
+]
+exclude = [
+  "**/__pycache__",
+  "**/*.py[co]"
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -21,6 +32,9 @@ flake8 = "^4.0.1"
 tox = "^3.25.0"
 Sphinx = "^4.5.0"
 sphinx-material = "^0.0.35"
+
+[tool.poetry.scripts]
+tdd = "tdd.cli:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
