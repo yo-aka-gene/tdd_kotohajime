@@ -3,7 +3,7 @@
 - Operating System:
 
 # What
-Describe what you did
+Describe what you did.
 
 # Why
-Describe the reasons
+Describe the reasons.
